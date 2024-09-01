@@ -6,11 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "node index.js",
-=======
     "start":"node index.js",
->>>>>>> 02593ce79107e69afa85cc57c3f4c503c2462dea
     "build": "npm install"
   },
   "keywords": [],
