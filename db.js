@@ -1,7 +1,8 @@
 import mongoose from 'mongoose'
-
+import dotenv from 'dotenv';
+dotenv.config();
 //const URI='mongodb://localhost:27017/hotels'
-const URI='mongodb+srv://yashaswiniraj:gtvilQ04Lh4dqmed@cluster0.owhytft.mongodb.net/hotels'
+const URI=process.env.mongoURI
 
 mongoose.connect(URI,{})
 

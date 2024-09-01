@@ -18,6 +18,8 @@ import personModel from './models/PersonModel.js'
 import menuModel from './models/Menu.js';
 import menuRouter from './router/menurouter.js';
 import personRouter from './router/personrouter.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app=express();
 app.use(bodyParser.json())
